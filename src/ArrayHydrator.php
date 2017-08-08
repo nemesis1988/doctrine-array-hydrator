@@ -66,7 +66,7 @@ class ArrayHydrator
 
         foreach ($metaData->columnNames as $propertyName) {
             if (isset($data[$propertyName]) && !in_array($propertyName, $metaData->identifier)) {
-                $entity = $this->setProperty($entity, $propertyName, $data[$propertyName], $reflectionObject);
+                $entity = $this->setProperty($entity, $metaData->getFieldForColumn($propertyName), $data[$propertyName], $reflectionObject);
             }
         }
 
