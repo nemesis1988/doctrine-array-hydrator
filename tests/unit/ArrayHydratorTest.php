@@ -1,9 +1,9 @@
 <?php
-namespace pmill\Doctrine\Hydrator\Test;
+namespace nemesis\Doctrine\Hydrator\Test;
 
 use Mockery as m;
-use pmill\Doctrine\Hydrator\ArrayHydrator;
-use pmill\Doctrine\Hydrator\Test\Fixture\Permission;
+use nemesis\Doctrine\Hydrator\ArrayHydrator;
+use nemesis\Doctrine\Hydrator\Test\Fixture\Permission;
 
 class RouteTest extends TestCase
 {

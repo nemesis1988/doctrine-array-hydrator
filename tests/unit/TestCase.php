@@ -1,5 +1,5 @@
 <?php
-namespace pmill\Doctrine\Hydrator\Test;
+namespace nemesis\Doctrine\Hydrator\Test;
 
 use Doctrine\Common\Annotations\AnnotationReader;
 use Doctrine\Common\Cache\ArrayCache;

@@ -1,8 +1,8 @@
 {
-  "name": "pmill/doctrine-array-hydrator",
+  "name": "nemesis/doctrine-array-hydrator",
   "description": " An array to entity hydrator for Doctrine 2 entities ",
   "keywords": ["php", "doctrine", "hydrator", "array"],
-  "homepage": "https://github.com/pmill/doctrine-array-hydrator",
+  "homepage": "https://github.com/nemesis/doctrine-array-hydrator",
   "license": "MIT",
   "authors": [
     {
@@ -19,12 +19,12 @@
     "codeclimate/php-test-reporter": "dev-master"
   },
   "autoload": {
-    "psr-4": {"pmill\\Doctrine\\Hydrator\\": "src/"}
+    "psr-4": {"nemesis\\Doctrine\\Hydrator\\": "src/"}
   },
   "autoload-dev": {
     "psr-4": {
-      "pmill\\Doctrine\\Hydrator\\Test\\": "tests/unit/",
-      "pmill\\Doctrine\\Hydrator\\Test\\Fixture\\": "tests/fixtures/"
+      "nemesis\\Doctrine\\Hydrator\\Test\\": "tests/unit/",
+      "nemesis\\Doctrine\\Hydrator\\Test\\Fixture\\": "tests/fixtures/"
     }
   }
 }

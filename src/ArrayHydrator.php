@@ -1,5 +1,5 @@
 <?php
-namespace pmill\Doctrine\Hydrator;
+namespace nemesis\Doctrine\Hydrator;
 
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\Mapping\ClassMetadataInfo;

@@ -1,5 +1,5 @@
 <?php
-namespace pmill\Doctrine\Hydrator\Test\Fixture;
+namespace nemesis\Doctrine\Hydrator\Test\Fixture;
 
 use Doctrine\ORM\Mapping as ORM;
 
